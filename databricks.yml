@@ -22,8 +22,8 @@ targets:
     mode: production
     workspace:
       host: https://adb-777862349969176.16.azuredatabricks.net
-      # We explicitly deploy to /Workspace/Users/vamsi.krishna@simbustech.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/aravinth.m@simbustech.com/.bundle/${bundle.name}/${bundle.target}
+      # We explicitly deploy to /Workspace/Users/aravinth.m@simbustech.com to make sure we only have a single copy.
+      root_path: /Workspace/Users/aravinth.m@simbustech.com/Airbnb_Dataset_Project/${bundle.name}/${bundle.target}
     permissions:
-      - user_name: vamsi.krishna@simbustech.com
+      - user_name: aravinth.m@simbustech.com
         level: CAN_MANAGE
